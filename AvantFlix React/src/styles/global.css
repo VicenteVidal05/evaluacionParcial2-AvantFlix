@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.avantflix-navbar {
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.avantflix-navbar .navbar-brand {
+  color: #e50914;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.avantflix-navbar .nav-link {
+  color: #b3b3b3;
+  transition: color 0.2s ease-in-out;
+}
+
+.avantflix-navbar .nav-link:hover {
+  color: #ffffff;
+}
+
+.avantflix-card {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.avantflix-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(229, 9, 20, 0.2);
+}
+
+.avantflix-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.avantflix-banner {
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a0000 50%, #0d0d0d 100%);
+  border-bottom: 3px solid #e50914;
+  padding: 4rem 0;
+}
+
+.avantflix-section-title {
+  border-left: 4px solid #e50914;
+  padding-left: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.avantflix-badge-season {
+  background-color: #e50914;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+.avantflix-table {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-color: #2a2a2a;
+}
+
+.avantflix-table th {
+  background-color: #141414;
+  border-color: #2a2a2a;
+  color: #b3b3b3;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.avantflix-table td {
+  border-color: #2a2a2a;
+  vertical-align: middle;
+}
+
+.avantflix-form-dark .form-label {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.avantflix-form-dark .form-control,
+.avantflix-form-dark .form-select {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  color: #ffffff;
+}
+
+.avantflix-form-dark .form-control:focus,
+.avantflix-form-dark .form-select:focus {
+  background-color: #1a1a1a;
+  border-color: #e50914;
+  color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(229, 9, 20, 0.25);
+}
+
+.avantflix-form-dark .form-control::placeholder {
+  color: #b3b3b3;
+}
+
+.avantflix-btn-primary {
+  background-color: #e50914;
+  border-color: #e50914;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.avantflix-btn-primary:hover {
+  background-color: #b20710;
+  border-color: #b20710;
+}
+
+.admin-sidebar {
+  background-color: #141414;
+  border-right: 1px solid #2a2a2a;
+  min-height: 100vh;
+}
+
+.admin-kpi-card {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.admin-kpi-card .kpi-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e50914;
+}
+
+.admin-kpi-card .kpi-label {
+  color: #b3b3b3;
+  font-size: 0.85rem;
+}
+
+.cart-thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.payment-success-wrapper {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+.payment-rejected-wrapper {
+  background-color: #1a0000;
+  border: 1px solid #e50914;
+  border-radius: 8px;
+  padding: 2.5rem;
+}
